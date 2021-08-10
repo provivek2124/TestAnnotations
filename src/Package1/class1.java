@@ -25,12 +25,12 @@ public class class1 {
 	
 	@BeforeTest
 	public void beforetest() {
-		System.out.println("This will be executed before execution of all tests");
+		System.out.println("This will get executed first. This is beforetest");
 	}
 	
 	@BeforeClass
 	public void beforeclass() {
-		System.out.println("This will be executed before execution of all classes in this test");
+		System.out.println("This will get executed after beforetest");
 	}
 	
 	@AfterTest

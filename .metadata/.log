@@ -54,3 +54,105 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2021-08-10 14:58:17.449 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=11.0.11
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-08-10 14:58:33.170
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-10 14:58:33.170
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@25589735,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46994f26,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2021-08-10 15:01:40.871 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=11.0.11
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-08-10 15:01:53.104
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-10 15:01:53.104
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7dddfc35,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71316cd7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2021-08-10 15:02:29.181
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "src [in BeforeTestAndClass]
+  <default> (not open)
+  Package1 (not open)". Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2021-08-10 15:02:43.712
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "src [in BeforeTestAndClass]
+  <default> (not open)
+  Package1 (not open)
+  Package2 (not open)". Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.testng.eclipse 1 0 2021-08-10 15:10:43.540
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/amr016/Desktop/eclipse/configuration/org.eclipse.osgi/433/0/.cp/lib/testng-remote.jar /home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/bin /home/amr016/Desktop/eclipse/plugins/org.testng_7.4.0.r202105021533.jar /home/amr016/Desktop/eclipse/plugins/com.beust.jcommander_1.78.0.jar /home/amr016/Desktop/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/amr016/Desktop/eclipse/plugins/org.yaml.snakeyaml_1.21.0.jar /home/amr016/Desktop/eclipse/plugins/org.webjars.jquery_3.5.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 46285 -protocol json -d /home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/test-output /home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/testng.xml
+java -ea -classpath /home/amr016/Desktop/eclipse/configuration/org.eclipse.osgi/433/0/.cp/lib/testng-remote.jar:/home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/bin:/home/amr016/Desktop/eclipse/plugins/org.testng_7.4.0.r202105021533.jar:/home/amr016/Desktop/eclipse/plugins/com.beust.jcommander_1.78.0.jar:/home/amr016/Desktop/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/amr016/Desktop/eclipse/plugins/org.yaml.snakeyaml_1.21.0.jar:/home/amr016/Desktop/eclipse/plugins/org.webjars.jquery_3.5.1.jar org.testng.remote.RemoteTestNG -serport 46285 -protocol json -d /home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/test-output /home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2021-08-10 15:17:20.320
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/amr016/Desktop/eclipse/configuration/org.eclipse.osgi/433/0/.cp/lib/testng-remote.jar /home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/bin /home/amr016/Desktop/eclipse/plugins/org.testng_7.4.0.r202105021533.jar /home/amr016/Desktop/eclipse/plugins/com.beust.jcommander_1.78.0.jar /home/amr016/Desktop/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/amr016/Desktop/eclipse/plugins/org.yaml.snakeyaml_1.21.0.jar /home/amr016/Desktop/eclipse/plugins/org.webjars.jquery_3.5.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 33459 -protocol json -d /home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/test-output /home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/testng.xml
+java -ea -classpath /home/amr016/Desktop/eclipse/configuration/org.eclipse.osgi/433/0/.cp/lib/testng-remote.jar:/home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/bin:/home/amr016/Desktop/eclipse/plugins/org.testng_7.4.0.r202105021533.jar:/home/amr016/Desktop/eclipse/plugins/com.beust.jcommander_1.78.0.jar:/home/amr016/Desktop/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/amr016/Desktop/eclipse/plugins/org.yaml.snakeyaml_1.21.0.jar:/home/amr016/Desktop/eclipse/plugins/org.webjars.jquery_3.5.1.jar org.testng.remote.RemoteTestNG -serport 33459 -protocol json -d /home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/test-output /home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2021-08-10 15:18:55.709
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/amr016/Desktop/eclipse/configuration/org.eclipse.osgi/433/0/.cp/lib/testng-remote.jar /home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/bin /home/amr016/Desktop/eclipse/plugins/org.testng_7.4.0.r202105021533.jar /home/amr016/Desktop/eclipse/plugins/com.beust.jcommander_1.78.0.jar /home/amr016/Desktop/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/amr016/Desktop/eclipse/plugins/org.yaml.snakeyaml_1.21.0.jar /home/amr016/Desktop/eclipse/plugins/org.webjars.jquery_3.5.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 33671 -protocol json -d /home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/test-output /home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/testng.xml
+java -ea -classpath /home/amr016/Desktop/eclipse/configuration/org.eclipse.osgi/433/0/.cp/lib/testng-remote.jar:/home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/bin:/home/amr016/Desktop/eclipse/plugins/org.testng_7.4.0.r202105021533.jar:/home/amr016/Desktop/eclipse/plugins/com.beust.jcommander_1.78.0.jar:/home/amr016/Desktop/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/amr016/Desktop/eclipse/plugins/org.yaml.snakeyaml_1.21.0.jar:/home/amr016/Desktop/eclipse/plugins/org.webjars.jquery_3.5.1.jar org.testng.remote.RemoteTestNG -serport 33671 -protocol json -d /home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/test-output /home/amr016/eclipse-workspace/TestNG/BeforeTestAndClass/testng.xml
+
+!ENTRY org.eclipse.ui.ide 4 4 2021-08-10 15:20:53.283
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2021-08-10 15:20:53.283
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2021-08-10 15:20:53.283
+!MESSAGE The project description file (.project) for 'BeforeTestAndClass' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-08-10 15:20:54.129
+!MESSAGE The workspace will exit with unsaved changes in this session.
